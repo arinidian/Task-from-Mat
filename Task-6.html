@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task-6 From Mat</title>
+	<style type="text/css">
+		th,td {
+			padding: 30px;
+			
+		}
+		.center {
+			margin: auto;
+			width: 40%;
+			border: 3px solid #7777;
+			padding: 30px;
+		}
+
+	</style>
+</head>
+<body>
+<div class="center">
+	<button onclick="startGame()">Start Game!</button>
+<table style="width: 70%">
+	<tr>
+		<th ><b>First Number</b></th>
+		<th ><b>Second Number</b> </th>
+	</tr>
+	<tr>
+		<td id="firstcol" ></td>
+		<td id="secondcol" ></td>
+	</tr>
+
+</table>
+<button id="bigger" disabled="true" onclick="guessBig()">Guess Bigger!</button> <button id="smaller" disabled="true" onclick="guessSmall()">Guess Smaller!</button>
+<p id="compare"></p>
+</div>
+
+
+<script src="Task-6.js"></script>
+	
+
+
+</body>
+</html>
